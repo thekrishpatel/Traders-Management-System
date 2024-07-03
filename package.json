@@ -1,0 +1,35 @@
+{
+  "name": "traders-management-system",
+  "version": "1.0.0",
+  "description": "A Node.js application for managing traders.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "npm install"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thekrishpatel/Traders-Management-System.git"
+  },
+  "keywords": [
+    "traders",
+    "management",
+    "system",
+    "node",
+    "express"
+  ],
+  "author": "Krish Patel",
+  "license": "MIT"
+}
